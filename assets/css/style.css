@@ -706,9 +706,9 @@ section {
   margin: 0 2px;
 }
 
-/* Invited Speakers Section
+/* InvitedSpeakers Section
 --------------------------------*/
-#Invited Speakers {
+#InvitedSpeakers {
   background: #f7f7f7;
   background-size: cover;
   padding: 80px 0 60px 0;
@@ -716,7 +716,7 @@ section {
 
 
 
-#Invited Speakers .box {
+#InvitedSpeakers .box {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
@@ -725,7 +725,7 @@ section {
   position: relative;
   background: #fafafa;
 }
-#Invited Speakers .icon {
+#InvitedSpeakers .icon {
   position: absolute;
   top: -36px;
   left: calc(50% - 36px);
@@ -741,50 +741,50 @@ section {
   height: 72px;
   background: #2dc997;
 }
-#Invited Speakers .icon a {
+#InvitedSpeakers .icon a {
   display: inline-block;
 }
-#Invited Speakers .icon i {
+#InvitedSpeakers .icon i {
   color: #fff;
   font-size: 24px;
   line-height: 0;
 }
-#Invited Speakers .box:hover .icon {
+#InvitedSpeakers .box:hover .icon {
   background: #fff;
   border: 2px solid #2dc997;
 }
-#Invited Speakers .box:hover .icon i {
+#InvitedSpeakers .box:hover .icon i {
   color: #2dc997;
 }
-#Invited Speakers .box:hover .icon a {
+#InvitedSpeakers .box:hover .icon a {
   color: #2dc997;
 }
-#Invited Speakers .title {
+#InvitedSpeakers .title {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 
-#Invited Speakers h2 {
+#InvitedSpeakers h2 {
   color: #333;
   font-weight: 700;
   font-size: 42px;
 }
 
-#Invited Speakers h3 {
+#InvitedSpeakers h3 {
   color: #111;
   /* font-weight: 700; */
   font-size: 33px;
   /* text-align: center; */
 }
 
-#Invited Speakers row {
+#InvitedSpeakers row {
 
   align-items: center;
 }
 
-#Invited Speakers p {
+#InvitedSpeakers p {
   color: #111;
   /* font-weight: 700; */
   font-size: 18px;
@@ -792,47 +792,47 @@ section {
   text-align: center;
 }
 
-#Invited Speakers .title a {
+#InvitedSpeakers .title a {
   color: #111;
 }
-#Invited Speakers .description {
+#InvitedSpeakers .description {
   font-size: 14px;
   line-height: 24px;
 }
 
-#Invited Speakers .member {
+#InvitedSpeakers .member {
   margin: auto;
   text-align: center;
   margin-bottom: 20px;
 }
-#Invited Speakers .member .pic {
+#InvitedSpeakers .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
   height: 260px;
 }
-#Invited Speakers .member .pic img {
+#InvitedSpeakers .member .pic img {
   max-width: 90%;
 }
-#Invited Speakers .member h4 {
+#InvitedSpeakers .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 22px;
 }
-#Invited Speakers .member span {
+#InvitedSpeakers .member span {
   font-style: italic;
   display: block;
   font-size: 16px;
 }
-#Invited Speakers .member .social {
+#InvitedSpeakers .member .social {
   margin-top: 15px;
 }
-#Invited Speakers .member .social a {
+#InvitedSpeakers .member .social a {
   color: #b3b3b3;
 }
-#Invited Speakers .member .social a:hover {
+#InvitedSpeakers .member .social a:hover {
   color: #2dc997;
 }
-#Invited Speakers .member .social i {
+#InvitedSpeakers .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
