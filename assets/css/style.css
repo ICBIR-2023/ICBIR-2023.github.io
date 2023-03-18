@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #home:before {
   content: "";
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.1);
   position: absolute;
   bottom: 0;
   top: 0;
