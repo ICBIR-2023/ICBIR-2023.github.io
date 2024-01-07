@@ -706,6 +706,12 @@ section {
   margin: 0 2px;
 }
 
+.committee-list li {
+  font-size: larger; /* Makes font size larger */
+  line-height: 1.5; /* Increases the line spacing */
+  text-align: center; /* Centers the text */
+}
+
 /* InvitedSpeakers Section
 --------------------------------*/
 #InvitedSpeakers {
