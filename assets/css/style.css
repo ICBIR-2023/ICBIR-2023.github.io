@@ -403,8 +403,9 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #home .btn-get-started {
     font-size: 4px;
-    padding: 4px 14px;
+    padding: 2px 7px;
     margin: 5px;
+    border: 1px solid #fff;
 
   }
 }
