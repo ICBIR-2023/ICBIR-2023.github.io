@@ -397,6 +397,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
+
+  position: relative;
+  left: -70px; /* 将按钮向左移动，根据需要调整这个值 */
+  top: 200px;   /* 将按钮向下移动，根据需要调整这个值 */
 }
 #home .btn-get-started:hover {
   background: #2dc997;
