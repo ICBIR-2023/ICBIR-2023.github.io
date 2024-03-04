@@ -351,8 +351,8 @@ h1, h2, h3, h4, h5, h6 {
 #home .home-container {
   position: absolute;
   bottom: 0;
-  top: 0;
-  left: 0;
+  top: 20vw;
+  left: -10vw;
   right: 0;
   display: flex;
   justify-content: center;
