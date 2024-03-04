@@ -327,8 +327,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #home {
   width: 100vw;
-  height: 70vw;
-  min-height: 100vh;
+  height: 60vw;
+  min-height: 40vh;
   background: url(../img/2.jpg) top center;
   background-size: cover;
   /* background-repeat: no-repeat; */
