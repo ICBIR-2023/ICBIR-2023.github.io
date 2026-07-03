@@ -327,11 +327,11 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #home {
   width: 100vw;
-  height: 48vw;
+  min-height: 40vw;
   /* min-height: 40vh; */
-  background: url(../img/2.jpg) top center;
-  background-size: cover;
-  /* background-repeat: no-repeat; */
+  /* background: url(../img/zhangye.jpg) top center; */
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
 }
 @media (min-width: 1024px) {
@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #home:before {
   content: "";
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -351,8 +351,8 @@ h1, h2, h3, h4, h5, h6 {
 #home .home-container {
   position: absolute;
   bottom: 0;
-  top: 20vw;
-  left: -10vw;
+  top: 0;
+  left: 0;
   right: 0;
   display: flex;
   justify-content: center;
@@ -847,6 +847,138 @@ section {
   font-size: 18px;
   margin: 0 2px;
 }
+
+
+
+/* EditorialBoardForum Section
+--------------------------------*/
+#EditorialBoardForum {
+  background: #f7f7f7;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#EditorialBoardForum .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+#EditorialBoardForum .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #2dc997;
+}
+#EditorialBoardForum .icon a {
+  display: inline-block;
+}
+#EditorialBoardForum .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+#EditorialBoardForum .box:hover .icon {
+  background: #fff;
+  border: 2px solid #2dc997;
+}
+#EditorialBoardForum .box:hover .icon i {
+  color: #2dc997;
+}
+#EditorialBoardForum .box:hover .icon a {
+  color: #2dc997;
+}
+#EditorialBoardForum .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#EditorialBoardForum h2 {
+  color: #333;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+#EditorialBoardForum h3 {
+  color: #111;
+  /* font-weight: 700; */
+  font-size: 33px;
+  /* text-align: center; */
+}
+
+#EditorialBoardForum row {
+
+  align-items: center;
+}
+
+#EditorialBoardForum p {
+  color: #111;
+  /* font-weight: 700; */
+  font-size: 22px;
+  line-height: 20px;
+  text-align: left;
+}
+
+#EditorialBoardForum .title a {
+  color: #111;
+}
+#EditorialBoardForum .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#EditorialBoardForum .member {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#EditorialBoardForum .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+}
+#EditorialBoardForum .member .pic img {
+  max-width: 90%;
+}
+#EditorialBoardForum .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 22px;
+}
+#EditorialBoardForum .member span {
+  font-style: italic;
+  display: block;
+  font-size: 16px;
+}
+#EditorialBoardForum .member .social {
+  margin-top: 15px;
+}
+#EditorialBoardForum .member .social a {
+  color: #b3b3b3;
+}
+#EditorialBoardForum .member .social a:hover {
+  color: #2dc997;
+}
+#EditorialBoardForum .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
 
 
 /* Call To Action Section
